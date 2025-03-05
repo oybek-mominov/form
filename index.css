@@ -5,7 +5,56 @@
 }
 
 .forma {
-    background: rgb(186, 209, 217);
+    width: 400px;
+    background: rgb(255, 255, 255);
     box-sizing: border-box;
+    padding: 30px;
+    margin-top: 150px;
+    border: none;
+    border-radius: 5px;
     box-shadow: 2px 2px 4px rgb(222, 222, 222), -2px -2px 4px rgb(222, 222, 222);
+}
+
+.forma h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.forma p {
+    font-family: sans-serif;
+    margin: 10px 20px;
+}
+
+.forma input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.forma button {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 30px;
+    font-size: 1rem;
+    background: white;
+    border: 1px solid;
+    border-radius: 4px;
+    transition: all 0.1s ease-in-out;
+}
+
+.forma button:hover {
+    box-shadow: 2px 2px 4px rgb(238, 238, 238), -2px -2px 4px rgb(238, 238, 238);
+    transform: scale(1.05);
+}
+
+#kirish {
+    /* position: absolute; */
+    margin: 0;
+    font-size: 0.8rem;
+    text-align: center;
 }
