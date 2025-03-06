@@ -47,6 +47,8 @@ body::before {
     width: 65%;
     height: 100%;
     margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px 0;
 }
 
 .forma > h2 {
